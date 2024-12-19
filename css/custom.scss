@@ -457,8 +457,11 @@ margin-bottom: 8px;
       }
     }
     .grn-btn{
-      background-color: $green;
+      background-color: #035414;
     padding: 12px 16px;
+    &:hover{
+      background-color: #024310;
+    }
     }
   }
   .top_search {
@@ -1854,7 +1857,7 @@ line-height: 26px;
 }
 
 .main_wrapper {
-  padding-top: 163px;
+  padding-top: 133px;
   margin-bottom: 40px;
  
   p {
@@ -1868,8 +1871,9 @@ line-height: 26px;
 
 .main_breadcrumb {
   display: flex;
-  align-items: center;
-  padding: 12px 0px;
+    align-items: center;
+    padding: 8px 0px;
+    background: #F2F2F2;
   .breadcrumb {
     background: none;
     margin: 0px;
@@ -1880,24 +1884,32 @@ line-height: 26px;
     padding-bottom: 3px;
     align-items: center;
     >.breadcrumb-item:first-child a {
-      color: #122A72;
+     
       &:hover{
         color: #06891B;
       }
     }
     a {
-      color: $black;
-      font-weight: 700;
-      text-decoration: none;
+      color: #000;
+      text-align: center;
+      font-family: Montserrat;
       font-size: 14px;
-      text-decoration: underline;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 18px; 
+      text-decoration: none;
       &:hover{
         color: #122A72;
       }
     }
     li.active {
-      color: $black;
-      font-weight: 400;
+      color: #000;
+      text-align: center;
+      font-family: Montserrat;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 18px; 
     }
     img {
       vertical-align: unset;
@@ -1905,15 +1917,15 @@ line-height: 26px;
     }
   }
   .breadcrumb-item + .breadcrumb-item::before {
-    content: ">";
-    /*background: url(../img/angle-right.svg);
+    content: "";
+    background: url(../img/angle-right.svg);
             background-repeat: repeat;
-            background-repeat: no-repeat;*/
+            background-repeat: no-repeat;
     margin-top: 0px;
-    margin-right: 6px;
-    margin-left: 3px;
-    padding-right: 5px;
-    padding-left: 5px;
+    margin-right: 8px;
+    margin-left: 8px;
+    padding-right: 8px;
+    padding-left: 8px;
     color: $black;
   }
   .breadcrumb-item + .breadcrumb-item {
@@ -4910,6 +4922,9 @@ body .is-layout-constrained > .wp-block-group {
     border-radius: 0px;
     z-index: 90;
     @include all;
+    &:hover{
+      background-color: #72141A;
+    }
   }
 }
 
