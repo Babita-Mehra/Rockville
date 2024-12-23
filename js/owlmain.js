@@ -83,5 +83,25 @@ $('.slider_area  .owl-carousel').owlCarousel({
     }
 });
 	
+/*************************Event Time carousel***************************/
+$('.ev-time-carousel').owlCarousel({
+    dots:false,
+    loop:true,
+    margin:0,
+    nav:true,
+    autoplay:true,
+    navText: [
+        '<img src="./img/arrow_right.svg">',
+        '<img src="./img/arrow_right.svg">'
+    ],
+    responsive:{
+        0:{
+            items:1
+        },
+        768:{
+            items:2
+        }
+    }
+});	
 
 });

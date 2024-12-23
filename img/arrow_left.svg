@@ -1,3 +1,10 @@
-<svg width="17" height="24" viewBox="0 0 17 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path id="arrow_forward_ios" d="M4.025 22L2.25 20.225L10.475 12L2.25 3.775L4.025 2L14.025 12L4.025 22Z" fill="#122A72" stroke="#122A72" stroke-width="3"/>
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Icons - Light" clip-path="url(#clip0_6230_11951)">
+<path id="Vector" d="M25 32.5L12.5 20L25 7.5" stroke="white" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_6230_11951">
+<rect width="40" height="40" fill="white"/>
+</clipPath>
+</defs>
 </svg>
