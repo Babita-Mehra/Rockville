@@ -397,6 +397,9 @@ label.title {
   list-style: none;
   padding: 0;
   margin-right: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 .main_header .navbar .container-fluid,
 .main_header .navbar .container {
@@ -501,7 +504,8 @@ label.title {
   box-shadow: none;
 }
 .main_header .top_search .btn.btn-default {
-  padding: 24px;
+  height: 73px !important;
+  width: 72px;
 }
 .main_header .top_search .search-box .btn {
   position: inherit !important;
@@ -592,8 +596,10 @@ label.title {
   justify-content: space-between;
   align-items: center;
   gap: 80px;
-  min-height: 80px;
+  min-height: 100%;
   position: relative;
+  width: 100%;
+  padding-left: 160px;
 }
 .main_header .navbar-nav {
   height: 100%;
@@ -852,7 +858,7 @@ label.title {
 }
 
 .main_banner {
-  padding-top: 133px;
+  padding-top: 122px;
   position: relative;
 }
 .main_banner .carousel {
@@ -1755,7 +1761,7 @@ section.NewsMettings {
 }
 
 .main_wrapper {
-  padding-top: 133px;
+  padding-top: 124px;
   margin-bottom: 40px;
 }
 .main_wrapper p {
@@ -2624,8 +2630,8 @@ section.icon-button .top-Title h3 {
 }
 .owl-general .owl-carousel .owl-dots {
   text-align: center;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .owl-general .owl-carousel .owl-dot.active {
   background: #0062EE;
@@ -9056,4 +9062,14 @@ span.blue-txt {
 
 .right-text .cont-txt-box {
   padding: 0px;
+}
+
+.owl-general p.text-center {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  padding-top: 4px;
 }/*# sourceMappingURL=custom.css.map */

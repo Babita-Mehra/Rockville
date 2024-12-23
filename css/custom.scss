@@ -417,6 +417,9 @@ label.title {
       list-style: none;
       padding: 0;
       margin-right: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
     }
     .container-fluid,
     .container {
@@ -521,8 +524,8 @@ label.title {
       box-shadow: none;
     }
     .btn.btn-default {
-      padding: 24px;
-   
+      height: 73px !important;
+    width: 72px;
 
     }
     .search-box .btn{
@@ -616,14 +619,14 @@ label.title {
   }
   .nav_bottom {
     margin-left: auto;
-   
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 80px;
-    min-height: 80px;
+    min-height: 100%;
     position: relative;
+    width: 100%;
+    padding-left: 160px
 
   
   }
@@ -904,7 +907,7 @@ line-height: 24px; /* 120% */
 
 //banner
 .main_banner {
-  padding-top: 133px;
+  padding-top: 122px;
   position: relative;
   .carousel {
     display: flex;
@@ -1873,7 +1876,7 @@ line-height: 26px;
 }
 
 .main_wrapper {
-  padding-top: 133px;
+  padding-top: 124px;
   margin-bottom: 40px;
  
   p {
@@ -2825,9 +2828,9 @@ box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.15);
   }
   .owl-carousel .owl-dots {
     text-align: center;
-    margin-top: 15px;
+    margin-top: 0px;
    
-    margin-bottom: 15px;
+    margin-bottom: 0px;
   }
   .owl-carousel .owl-dot.active {
     background: #0062EE;
@@ -9531,4 +9534,15 @@ margin-bottom: 24px;
 }
 .right-text .cont-txt-box {
   padding: 0px;
+}
+.owl-general {
+p.text-center {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  padding-top: 4px;
+}
 }
