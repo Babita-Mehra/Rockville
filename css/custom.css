@@ -7710,6 +7710,7 @@ section.video-sec {
 .places-box .row {
   gap: 40px;
   margin: 0px;
+  flex-wrap: nowrap;
 }
 .places-box .col_left {
   max-width: 400px;

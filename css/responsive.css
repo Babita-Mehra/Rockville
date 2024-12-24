@@ -1596,6 +1596,9 @@
   .row.mt_row {
     display: block !important;
   }
+  .col_left {
+    max-width: 100% !important;
+  }
 }
 @media (max-width: 767px) {
   .ev-timecontainer .owl-carousel .owl-nav button.owl-prev {
@@ -1606,5 +1609,8 @@
   }
   .ev-timecontainer .owl-item:before {
     content: inherit;
+  }
+  .col_left {
+    max-width: 100% !important;
   }
 }/*# sourceMappingURL=responsive.css.map */

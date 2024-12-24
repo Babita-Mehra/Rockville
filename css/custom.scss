@@ -8128,7 +8128,9 @@ section.video-sec {
     }
     .row{
       gap: 40px;
-        margin: 0px;
+    margin: 0px;
+    flex-wrap: nowrap;
+
     }
     .col_left {
       max-width: 400px;
